@@ -1,14 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Solart</title>
-    <%= csrf_meta_tags %>
+  	<meta charset="utf-8">
 
+	<title><%= yield(:page_title) %> | Solart </title>
+    <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
+
+ <!-- Navigation -->
+
+
+<!--- Image Slider on home.html.erb -->
+
+
+<!--- Jumbotron on home.html.erb-->
+
+
+<!--- Welcome Section on home.html.erb-->
+
+
+<!--- Three Column Section -->
+
+
+<!--- Two Column Section -->
+
+
+<!--- Fixed background -->
+
+
+<!--- Emoji Section -->
+
+  
+<!--- Meet the team -->
+
+
+<!--- Cards -->
+
+
+<!--- Two Column Section -->
+
+
+<!--- Connect -->
+
+
+
+
+
     <%= yield %>
+    <!--- Footer -->
+    <%= render 'layouts/footer' %>
   </body>
 </html>
